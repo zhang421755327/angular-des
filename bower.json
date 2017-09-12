@@ -1,0 +1,9 @@
+{
+  "name": "angular-des",
+  "version": "1.0.0",
+  "main": "./angular-des.js",
+  "dependencies": {
+    "cryptojslib": "~3.1.2"
+  },
+  "ignore": []
+}
