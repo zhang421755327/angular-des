@@ -43,10 +43,10 @@ angular.module('app').controller('DemoController', ['$scope', '$cryptojs', funct
 or you can use a custom key everytime
 
 ```js
-angular.module('app').controller('ExampleController', ['$scope', '$crypto', function($scope, $crypto) {
+angular.module('app').controller('DemoController', ['$scope', '$cryptojs', function($scope, $cryptojs) {
 
-	var encrypted = $crypto.encrypt('some plain text data', 'some custom key');
-	var decrypted = $crypto.decrypt(encrypted, 'some other custom key');
+	var encrypted = $cryptojs.encrypt('some plain text data', 'some custom key');
+	var decrypted = $cryptojs.decrypt(encrypted, 'some other custom key');
 });
 
 ```
@@ -55,7 +55,7 @@ That's all !
 
 Issues
 -------------
-- Report at the github [issue tracker](https://github.com/middleout/angular-cryptography/issues)
+- Report at the github [issue tracker](https://github.com/zhang421755327/angular-des/issues)
 
 License
 --------------
