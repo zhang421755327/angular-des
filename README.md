@@ -1,11 +1,11 @@
 ==================
 
-AngularJS Module that integrate cryptography functionality offers from the [crypto-js](https://code.google.com/p/crypto-js/) project. Provides a simple service to encrypt and decrypt using AES.
+AngularJS Module that integrate cryptography functionality offers from the [crypto-js](https://code.google.com/p/crypto-js/) project. Provides a simple service to encrypt and decrypt using tripledes.
 
 Dependencies
 ------------
 - [AngularJS 1.1.4 + ](http://angularjs.org/) (tested with 1.1.4 and 1.2.16)
-- [Crypto-js 3.1.2 AES modul](https://github.com/sytelus/CryptoJS/tree/master/rollups/tripledes.js)
+- [Crypto-js 3.1.2 tripledes modul](https://github.com/sytelus/CryptoJS/tree/master/rollups/tripledes.js)
 
 ##Install (bower)
 
